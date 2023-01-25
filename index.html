@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--CV Navegable/Responsive v1.0 by WalterIba-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Vitae Walter Ibarrola</title>
+  <meta name="title" content="Curriculum Vitae Walter Ibarrola">
+  <meta name="author" content="Walter David Ibarrola Sánchez">
+  <meta name="description" content="Un resumen de mi carrera Profesional">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://walteribacv.com.ar">
+  <meta property="og:title" content="Curriculum Vitae Walter Ibarrola">
+  <meta property="og:description" content="Un resumen de mi carrera Profesional">
+  <meta property="og:image"
+    content="https://blog.centrodeelearning.com/wp-content/uploads/2022/08/lenguaje-de-programacion-scaled.jpg">
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://walteribacv.com.ar">
+  <meta property="twitter:title" content="Curriculum Vitae Walter Ibarrola">
+  <meta property="twitter:description" content="Un resumen de mi carrera Profesional">
+  <meta property="twitter:image"
+    content="https://blog.centrodeelearning.com/wp-content/uploads/2022/08/lenguaje-de-programacion-scaled.jpg">
+  <!--favicon-->
+  <link rel="shortcut icon" href="assets/favicon_cv.ico" type="image/x-icon" />
+  <!--css-->
+  <link rel="stylesheet" href="css/style.css" />
+  <!--roboto-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <!--mdl framework-->
+  <link rel="stylesheet" href="mdl/material.min.css">
+  <script src="mdl/material.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!--fontawesome-->
+  <script src="https://kit.fontawesome.com/0b31d8e403.js" crossorigin="anonymous"></script>
+  <!--bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- Simple header with fixed tabs. -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+            mdl-layout--fixed-tabs">
+
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+
+        <!-- Titulo -->
+        <span class="mdl-layout-title">
+          <h1 id="tit_principal"><b>Walter Ibarrola /CV </b></h1>
+        </span>
+      </div>
+
+      <!-- Tabs -->
+      <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+        <a href="#fixed-tab-1" class="mdl-layout__tab is-active">/Experiencia</a>
+        <a href="#fixed-tab-2" class="mdl-layout__tab">/Proyectos</a>
+        <a href="#fixed-tab-3" class="mdl-layout__tab">/Formación</a>
+      </div>
+
+
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">
+        <h2 id="titulo_pestaña"><b>Yo</b></h2>
+      </span>
+      <nav class="mdl-navigation">
+        <div>
+
+          <!--foto y resumen-->
+          <img id="foto_cv" src="assets/images/fotocv.jpg" alt="Una foto algo desprolija de mí">
+          <h3 id="resume_me"><b>BREVE RESUMEN DE MÍ</b></h3>
+          <p class="resume_me_p">Tengo 25 años.</p>
+          <p class="resume_me_p">Me considero una persona comunicativa, amable y capaz de adaptarse a cada situación.
+            Siempre en la
+            búsqueda de desafíos y aprendizajes.</p>
+          <p class="resume_me_p">Me encantan las mascotas y los videojuegos.</p>
+
+          <!--contacto-->
+          <h3 id="resume_me"><b>CONTACTO</b></h3>
+          <ul class="contact-list">
+            <li><i class="fas fa-clock"></i>
+              <a class="link_list" href="https://time.is/es/Buenos_Aires" target="_blank">América /Buenos Aires</a>
+            </li>
+            <li><i class="fas fa-envelope"></i>
+              <a class="link_list" href="mailto:walter_ibarrola@hotmail.com.ar">Walter_ibarrola@hotmail.com.ar</a>
+            </li>
+            <li><i class="fas fa-phone"></i>
+              <a class="link_list" href="tel:549 11 68970207">549 11 689702XX</a>
+            </li>
+            <li><i class="fab fa-twitter"></i>
+              <a class="link_list" href="https://twitter.com/@VValliba" target="_blank">@VValliba</a>
+            </li>
+            <li><i class="fab fa-github"></i>
+              <a class="link_list" href="https://github.com/Walteriba" target="_blank">Walteriba</a>
+            </li>
+            <li><i class="fab fa-linkedin"></i>
+              <a class="link_list" href="https://www.linkedin.com/in/walter-ibarrola-14b1b5262/" target="_blank">Walter
+                Ibarrola</a>
+            </li>
+          </ul>
+
+          <!--boton likes-->
+          <div>
+            <button id="boton_likeid" class="boton_like hover_like">0 Me gusta este CV! </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--Experiencia-->
+    <main class="mdl-layout__content">
+      <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+        <div class="page-content">
+
+          <div class="container_trabajo">
+            <h3 class="titulo_trabajo"><b>Junior Software Engineer</b></h3>
+            <div class="tiempo_trabajo"><b>2020 - Actualidad</b></div>
+            <hr class="linea_trabajo" />
+            <div class="compania_trabajo"><b>Mercado Libre</b></div>
+            <div class="detalles_trabajo">
+              <p>Magna orci cubilia, mollis quis, sagittis aliquam vitae elit id consequat curabitur. Venenatis
+                placerat nam aenean, metus blandit fames, sodales congue etiam mattis sagittis cursus non semper.
+                Adipiscing semper suscipit, imperdiet pulvinar elementum sem ultricies. Vivamus nec tellus vehicula,
+                consectetur mi quis, molestie urna. Sed bibendum massa ut
+                eleifend congue.</p>
+              <div id="logros_container1">
+                <div onclick="masymenos(1)"><b id="Logros_btn1">Logros (+)</b></div>
+                <div id="subseccion1">
+                  <ul class="list_logros">
+                    <li>
+                      Dirigí un equipo de 100 personas y aumenté a 10 millones de dólares el valor de la empresa en
+                      2021.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="lineaseparativa">
+
+          <div class="container_trabajo">
+            <h3 class="titulo_trabajo"><b>Analista UX</b></h3>
+            <div class="tiempo_trabajo"><b>2017 - 2020</b></div>
+            <hr class="linea_trabajo" />
+            <div class="compania_trabajo"><b>Steam</b></div>
+            <div class="detalles_trabajo">
+              <p>Magna orci cubilia, mollis quis, sagittis aliquam vitae elit id consequat curabitur. Venenatis placerat
+                nam aenean, metus blandit fames, sodales congue etiam mattis sagittis cursus non semper. Adipiscing
+                semper suscipit, imperdiet pulvinar elementum sem ultricies. Vivamus nec tellus vehicula, consectetur mi
+                quis, molestie urna. Sed bibendum massa ut
+                eleifend congue.</p>
+              <div id="logros_container2">
+                <div onclick="masymenos(2)"><b id="Logros_btn2">Logros (+)</b></div>
+                <div id="subseccion2">
+                  <ul class="list_logros">
+                    <li>Dirigí campañas de marketing exitosas y aumenté la productividad general.</li>
+                    <li>Gestioné 20 consultorias de marketing.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="lineaseparativa">
+
+          <div class="container_trabajo">
+            <h3 class="titulo_trabajo"><b>Diseñador de niveles</b></h3>
+            <div class="tiempo_trabajo"><b>2014 - 2017</b></div>
+            <hr class="linea_trabajo" />
+            <div class="compania_trabajo"><b>Arkane Studios</b></div>
+            <div class="detalles_trabajo">
+              <p>Magna orci cubilia, mollis quis, sagittis aliquam vitae elit id consequat curabitur. Venenatis placerat
+                nam aenean, metus blandit fames, sodales congue etiam mattis sagittis cursus non semper. Adipiscing
+                semper suscipit, imperdiet pulvinar elementum sem ultricies. Vivamus nec tellus vehicula, consectetur mi
+                quis, molestie urna. Sed bibendum massa ut
+                eleifend congue.</p>
+              <div id="logros_container3">
+                <div onclick="masymenos(3)"><b id="Logros_btn3">Logros (+)</b></div>
+                <div id="subseccion3">
+                  <ul class="list_logros">
+                    <li>Entrené a 2 equipos de apoyo diferentes.</li>
+                    <li>Aumenté el valor de la empresa al 35% en 2 años.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="lineaseparativa">
+
+          <div class="container_trabajo">
+            <h3 class="titulo_trabajo"><b>Analista Ciberseguridad</b></h3>
+            <div class="tiempo_trabajo"><b>2012 - 2014</b></div>
+            <hr class="linea_trabajo" />
+            <div class="compania_trabajo"><b>Google</b></div>
+            <div class="detalles_trabajo">
+              <p>Magna orci cubilia, mollis quis, sagittis aliquam vitae elit id consequat curabitur. Venenatis placerat
+                nam aenean, metus blandit fames, sodales congue etiam mattis sagittis cursus non semper. Adipiscing
+                semper suscipit, imperdiet pulvinar elementum sem ultricies. Vivamus nec tellus vehicula, consectetur mi
+                quis, molestie urna. Sed bibendum massa ut
+                eleifend congue.</p>
+              <div id="logros_container4">
+                <div onclick="masymenos(4)"><b id="Logros_btn4">Logros (+)</b></div>
+                <div id="subseccion4">
+                  <ul class="list_logros">
+                    <li>Desarrollé e implementé un contrato completo con más de 300 empleados.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Proyectos-->
+      <section class="mdl-layout__tab-panel" id="fixed-tab-2">
+        <div class="page-content">
+
+          <div class="gallery-container">
+
+            <div class="fig_container">
+              <figure class="gallery_item">
+                <img src="assets/images/ai.jpg" alt="IA Autoconsciente" class="gallery_img">
+                <h2 class="gallery_title">IA Autoconsciente</h2>
+                <figcaption class="proy_d">1 Fusce et sapien ipsum. Etiam aliquet erat ac sem faucibus, eu suscipit
+                  ipsum
+                  condimentum. Vivamus nec tellus vehicula, consectetur mi quis, molestie urna. Sed bibendum massa ut
+                  eleifend congue.
+                  <hr>
+                  <div class="link_figcontainer"><a class="link_fig" href="link.html" target="_blank">Ir</a></div>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="fig_container">
+              <figure class="gallery_item">
+                <img src="assets/images/apolo_XI_codigo_fuente.jpg" alt="Compilador Apolo XVIII" class="gallery_img">
+                <h2 class="gallery_title">Compilador Apolo XVIII</h2>
+                <figcaption class="proy_d">2 Fusce et sapien ipsum. Etiam aliquet erat ac sem faucibus, eu suscipit
+                  ipsum
+                  condimentum. Vivamus nec tellus vehicula, consectetur mi quis, molestie urna. Sed bibendum massa ut
+                  eleifend congue.
+                  <hr>
+                  <div class="link_figcontainer"><a class="link_fig" href="link.html" target="_blank">Ir</a></div>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="fig_container">
+              <figure class="gallery_item">
+                <img src="assets/images/ciberseguridad.jpg" alt="Software de Seguridad Ofensiva" class="gallery_img">
+                <h2 class="gallery_title">Software de Seguridad Ofensiva</h2>
+                <figcaption class="proy_d">3 Fusce et sapien ipsum. Etiam aliquet erat ac sem faucibus, eu suscipit
+                  ipsum
+                  condimentum. Vivamus nec tellus vehicula, consectetur mi quis, molestie urna. Sed bibendum massa ut
+                  eleifend congue.
+                  <hr>
+                  <div class="link_figcontainer"><a class="link_fig" href="link.html" target="_blank">Ir</a></div>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="fig_container">
+              <figure class="gallery_item">
+                <img src="assets/images/Pong.jpg" alt="Mi Primer Videojuego" class="gallery_img">
+                <h2 class="gallery_title">Mi Primer Videojuego</h2>
+                <figcaption class="proy_d">4 Fusce et sapien ipsum. Etiam aliquet erat ac sem faucibus, eu suscipit
+                  ipsum
+                  condimentum. Vivamus nec tellus vehicula, consectetur mi quis, molestie urna. Sed bibendum massa ut
+                  eleifend congue.
+                  <hr>
+                  <div class="link_figcontainer"><a class="link_fig" href="link.html" target="_blank">Ir</a></div>
+                </figcaption>
+              </figure>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!--Formación-->
+      <section class="mdl-layout__tab-panel" id="fixed-tab-3">
+        <div class="page-content">
+
+          <div class="formacion_container">
+
+            <div class="f1">
+
+              <div class="formacion_subcontainer" class="estudios_suncontainer">
+                <h3 class="tit_form"><i class="fa-solid fa-graduation-cap"></i><b class="espaciopequeño">Estudios</b>
+                </h3>
+
+                <div class="año"><i>2023 - Actualidad (Cursando)</i></div>
+                <div class="inst"><i>Universidad Nacional Guillermo Brown - UNaB</i></div>
+                <h5 class="tit_grado"><b>Tecnicatura Universitaria en Programación </b></h5>
+
+                <div class="año"><i>2015 - 2019 (Sin finalizar)</i> </div>
+                <div class="inst"><i>Facultad de Farmacia y Bioquimica - UBA</i></div>
+                <h5 class="tit_grado"><b>Licenciatura en Bioquímica</b></h5>
+
+                <div class="año"><i>12/2014</i></div>
+                <div class="inst"><i>Instituto Secundario Martha Salotti</i></div>
+                <h5 class="tit_grado"><b>Bachillerato General en Comunicación</b></h5>
+
+              </div>
+
+              <hr class="lineagenerica">
+
+              <div class="formacion_subcontainer" class="cursos_suncontainer">
+                <h3 class="tit_form"><i class="fa-solid fa-bookmark"></i><b class="espaciopequeño">Cursos</b></h3>
+
+                <div class="año"><i>02/2023</i></div>
+                <div class="inst"><i>Argentina Programa 4.0 /Virtual</i></div>
+                <h5 class="tit_grado"><b>Introducción al Desarrollo Web Responsive con HTML y CSS</b></h5>
+
+                <div class="año"><i>12/2022</i></div>
+                <div class="inst"><i>Coderhouse /Virtual</i></div>
+                <h5 class="tit_grado"><b>Introducción a SQL</b></h5>
+
+                <div class="año"><i>09/2022</i></div>
+                <div class="inst"><i>ITMaster /Virtual</i></div>
+                <h5 class="tit_grado"><b>Programación en Python</b></h5>
+
+
+
+              </div>
+
+              <hr class="lineagenerica">
+            </div>
+
+            <div class="f2">
+
+              <div class="formacion_subcontainer habilidades_suncontainer">
+                <h3 class="tit_form"><i class="fa-solid fa-laptop-code"></i><b class="espaciopequeño">Habilidades</b>
+                </h3>
+                <ul class="hab_list">
+                  <div class="progres_list_container">
+                    <li class="li_habilidades_item"><i class="fa-brands fa-python"></i><b
+                        class="espaciopequeño">Python</b></li>
+                    <div class="progress_bar">
+                      <div class="porcentaje" style="width: 40%;"></div>
+                    </div>
+                  </div>
+                  <div class="progres_list_container">
+                    <li class="li_habilidades_item"><i class="fa-brands fa-square-js"></i><b
+                        class="espaciopequeño">Javascript</b></li>
+                    <div class="progress_bar">
+                      <div class="porcentaje" style="width: 60%;"></div>
+                    </div>
+                  </div>
+                  <div class="progres_list_container">
+                    <li class="li_habilidades_item"><i class="fa-brands fa-html5"></i><i
+                        class="fa-brands fa-css3-alt"></i><b class="espaciopequeño">HTML5 & CSS</b></li>
+                    <div class="progress_bar">
+                      <div class="porcentaje" style="width: 75%;"></div>
+                    </div>
+                  </div>
+                  <div class="progres_list_container">
+                    <li class="li_habilidades_item"><i class="fa-solid fa-gem"></i><b class="espaciopequeño">Ruby</b>
+                    </li>
+                    <div class="progress_bar">
+                      <div class="porcentaje" style="width: 25%;"></div>
+                    </div>
+                  </div>
+                  <div class="progres_list_container">
+                    <li class="li_habilidades_item"><i class="fa-solid fa-image"></i><b
+                        class="espaciopequeño">Photoshop</b></li>
+                    <div class="progress_bar">
+                      <div class="porcentaje" style="width: 50%;"></div>
+                    </div>
+                  </div>
+                </ul>
+
+                <hr class="lineagenerica">
+
+                <ul class="li_otras_habilidades">
+                  <b>
+                    <li>Armado y reparación de PCs.</li>
+                    <li>Mantenimiento de Redes.</li>
+                    <li>Armado de Servidores.</li>
+                    <li>Otra habilidad Sed bibendum.</li>
+                    <li>Otra habilidad Sed bibendum.</li>
+                    <li>Otra habilidad Sed bibendum.</li>
+                  </b>
+                </ul>
+              </div>
+
+              <hr class="lineagenerica">
+
+              <div class="formacion_subcontainer lenguajes_suncontainer">
+                <h3 class="tit_form"><i class="fa-solid fa-language"></i><b class="espaciopequeño">Lenguajes</b></h3>
+                <ul class="lenguaje_list">
+                  <li class="li_habilidades_item" style="margin-bottom: 10px;"><b>Español (Nativo)</b></li>
+                  <div class="progres_list_container">
+                    <li class="li_habilidades_item"><b>Ingles (B1)</b></li>
+                    <div class="progress_bar">
+                      <div class="porcentaje" style="width: 75%;"></div>
+                    </div>
+                  </div>
+                  <div class="progres_list_container">
+                    <li class="li_habilidades_item"><b>Chino Mandarín (A1)</b></li>
+                    <div class="progress_bar">
+                      <div class="porcentaje" style="width: 20%;"></div>
+                    </div>
+                  </div>
+
+                </ul>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!--footer-->
+    <footer class="footer">
+      <div class="footer_left">
+        <div class="logo_footer"><b>WI</b></div>
+        <ul class="footer-list">
+          <li><a href="link.html" target="_blank">Ayuda</a></li>
+          <li><a href="link.html" target="_blank">Términos y Condiciones </a></li>
+          <li><a target="_blank" download="CV_Walter_Ibarrola" title="Descargar PDF" href="assets/CVwalteriba.pdf"><i
+                class="fas fa-file-pdf"></i> Descárgame!</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <!--bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <!--js-->
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
