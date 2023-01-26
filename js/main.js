@@ -28,7 +28,7 @@ for (var i = 0; i < elem.length; i++) {
   elem[i].addEventListener('click', adicionarLike);
 }
 
-c = 0
+ var c = 0
 function adicionarLike() {
   c += 1;
   boton_likeid.innerHTML = `${c} Me gusta este CV!`;
