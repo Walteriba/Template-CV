@@ -9,11 +9,11 @@ function masymenos(n) {
 }
 
 function ver(n) {
-  
+
   document.getElementById("subseccion" + n).style.display = "block"
   document.getElementById("logros_container" + n).style.margin = "0px 0px 70px 0px";
   document.getElementById("Logros_btn" + n).innerHTML = "Logros (-)"
-  
+
 }
 
 function ocultar(n) {
@@ -28,7 +28,7 @@ for (var i = 0; i < elem.length; i++) {
   elem[i].addEventListener('click', adicionarLike);
 }
 
- var c = 0
+var c = 0;
 function adicionarLike() {
   c += 1;
   boton_likeid.innerHTML = `${c} Me gusta este CV!`;
